@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Joke from "./Joke";
 import axios from "axios";
-import uuid from "uuid/v4";
+import uuid from "uuid/dist/v4";
 import "./JokeList.css";
 
 class JokeList extends Component {
